@@ -1,0 +1,29 @@
+Assignment 
+Simulation of an Activation Stack in C
+
+Objective
+1.⁠ ⁠The purpose of this assignment is to simulate the behavior of an activation stack used during function calls in the C programming language.
+2.⁠ ⁠You will implement a stack that records details of each function call and tracks the function's return values and local variables.
+
+Expected manner of implementation
+1.⁠ ⁠Implement the activation stack using a stack data structure in C using linked lists.
+2.⁠ ⁠Each node of the stack should represent a function's activation record and contain the following.
+a. Function name
+b. Parameters (as a list of integers)
+c. Return address (can be simulated as an integer)
+d. Local variables (as a list of integers)
+
+Function Call Simulation
+1.⁠ ⁠Create a set of functions that simulate different operations, such as arithmetic calculations or array manipulations.
+2.⁠ ⁠Each function, when called, should do the following.
+a. Push its activation record onto the stack.
+b. Perform its intended operation.
+c. Pop its activation record from the stack before returning the result.
+
+Trace Execution
+1.⁠ ⁠Develop a feature to trace the execution of function calls by printing the stack's state at each function call and return. 
+2.⁠ ⁠The output should clearly show the function being called, the state of the stack, and the function's return value.
+
+Test Cases
+1.⁠ ⁠Implement at least three different test cases where functions call each other, including at least one recursive function.
+2.⁠ ⁠Example functions are a recursive function to calculate factorial, a function to compute the sum of an array, and a function to find the maximum number in an array.
